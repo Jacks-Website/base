@@ -96,10 +96,10 @@ p {
 }
 
 #cv {
-	width: 90%;
+	width: 100%;
 	max-width: 800px;
 	background: #FFFFFF;
-	margin: 30px auto;
+	margin: 0px ;
 }
 
 .mainDetails {
