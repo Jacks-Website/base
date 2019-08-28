@@ -1,3 +1,3 @@
 # jack.engineering
 
-A Website of my work. 
+A website of my work. 
