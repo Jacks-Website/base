@@ -1,3 +1,3 @@
 # jack.engineering
 
-Work on to have website hosted from github.
+A Website of my work. 
