@@ -6,4 +6,4 @@ git clone https://github.com/Jack-alope/vim.git
 mv ~/vim/.vim ~/
 mv ~/vim/.vimrc ~/
 rm -r vim
-echo "Done"
+echo "Vim Configuration Complete"
