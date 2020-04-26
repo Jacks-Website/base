@@ -9,4 +9,5 @@ mv ~/vim/.vimrc ~/
 sudo rm -r vim
 echo "Vim Configuration Complete"
 curl -L https://get.oh-my.fish | fish
+echo "exec fish" >> ~/.bashrc
 echo "OMF Installed"
