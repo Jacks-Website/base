@@ -10,6 +10,3 @@ rm -r vim
 echo "Vim Configuration Complete"
 curl -L https://get.oh-my.fish | fish
 echo "OMF Installed"
-echo "/usr/sbin/fish" >> /etc/shells
-chsh -s /usr/sbin/fish
-echo "Default Shell Changed to Fish"
