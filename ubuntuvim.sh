@@ -6,5 +6,5 @@ sudo apt install black isort flake8 python3-jedi git vim -y
 git clone https://github.com/Jack-alope/vim.git
 mv ~/vim/.vim ~/
 mv ~/vim/.vimrc ~/
-rm -r vim
+sudo rm -r vim
 echo "Vim Configuration Complete"
