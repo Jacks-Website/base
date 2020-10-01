@@ -55,25 +55,24 @@ $(document).ready(function(){
             <a class="ct-btn-scroll ct-js-btn-scroll" href="#about"><img alt="Arrow Down Icon" src="assets/img/arrow-down-1.png"></a>
          </div>
         </section>
-        <nav class="navbar navbar-light navbar-expand-md fixed-bottom text-right d-lg-flex visible navigation-clean d-none d-md-block" style="height: 50px;background-color: rgb(255,255,255);">
-            <div class="container">
-                <ul class="nav navbar-nav text-right ml-auto">
-                    <li class="nav-item"></li>
-                    <li class="nav-item"><a class="nav-link" href="mailto:jfm@jack.engineering">jfm@jack.engineering</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://jack.engineering/assets/resume/resume072020.pdf" target="_blank">resume</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://medium.com/@jack.f.murphy" target="_blank"><i class="fab fa-medium-m" data-toggle="tooltip" data-bs-tooltip="" title="Medium"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://github.com/Jack-alope" target="_blank"><i class="icon-social-github" data-toggle="tooltip" data-bs-tooltip="" title="Github"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/jack-f-murphy/" target="_blank"><i class="icon-social-linkedin" data-toggle="tooltip" data-bs-tooltip="" title="LinkedIn"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://scholar.google.com/citations?user=RwMPs-8AAAAJ&amp;hl=en" target="_blank"><i class="icon-graduation" data-toggle="tooltip" data-bs-tooltip="" title="Google Scholar"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://orcid.org/0000-0002-0417-7298" target="_blank"><i class="fab fa-orcid" data-toggle="tooltip" data-bs-tooltip="" title="ORCID"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://www.researchgate.net/profile/Jack_Murphy20" target="_blank"><i class="fab fa-researchgate" data-toggle="tooltip" data-bs-tooltip="" title="Researchgate"></i></a></li>
-                </ul>
+        <nav class="navbar navbar-light navbar-expand-md fixed-bottom d-lg-flex visible navigation-clean" style="height: 0px;background-color: rgb(255,255,255);">
+            <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-2"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-2">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="mailto:jfm@jack.engineering">jfm@jack.engineering</a></li>
+                        <li class="nav-item"><a class="nav-link" href="assets/resume/resume072020.pdf" target="_blank">resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://github.com/Jack-alope" target="_blank"><i class="icon-social-github" data-toggle="tooltip" data-bs-tooltip="" title="Github"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/jack-f-murphy/" target="_blank"><i class="icon-social-linkedin" data-toggle="tooltip" data-bs-tooltip="" title="LinkedIn"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://scholar.google.com/citations?user=RwMPs-8AAAAJ&amp;hl=en" target="_blank"><i class="icon-graduation" data-toggle="tooltip" data-bs-tooltip="" title="Google Scholar"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://orcid.org/0000-0002-0417-7298" target="_blank"><i class="fab fa-orcid" data-toggle="tooltip" data-bs-tooltip="" title="ORCID"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.researchgate.net/profile/Jack_Murphy20" target="_blank"><i class="fab fa-researchgate" data-toggle="tooltip" data-bs-tooltip="" title="Researchgate"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean" style="height: 50px;background-color: rgb(255,255,255);">
-            <div class="container-fluid"><a class="navbar-brand" href="#">Jack F. Murphy</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse"
-                    id="navcol-1" style="background-color: rgb(255,255,255);">
+            <div class="container"><a class="navbar-brand" href="#">Jack F. Murphy</a>
+                <div class="collapse navbar-collapse" id="navcol-1" style="background-color: rgb(255,255,255);">
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="index.html#portfolio">Projects</a></li>
@@ -111,7 +110,7 @@ $(document).ready(function(){
             <div class="container">
                 <h4 class="text-monospace text-uppercase text-center" style="opacity: 0.69;margin: 0px 0px 8px;color: rgb(0,0,0);padding: 60px 0px;">Recent Projects</h4>
                 <div class="row row-cols-1 text-center justify-content-center align-items-center" style="padding: 20px;border-width: 1px;border-style: dashed;">
-                    <div class="col-md-6" style="padding: 20px;border-style: none;border-color: rgb(84,84,84);"><video width="420" autoplay="" loop="" muted=""><source src="https://jack.engineering/assets/img/cpc.mp4" type="video/mp4"></video>
+                    <div class="col-md-6" style="padding: 20px;border-style: none;border-color: rgb(84,84,84);"><video autoplay="" loop="" muted="" width="100%"><source src="https://jack.engineering/assets/img/cpc.mp4" type="video/mp4"></video>
                         <h3 class="text-center" style="color: rgb(33,37,41);">Cardiac Tissue Engineering</h3>
                         <div class="getting-started-info">
                             <p class="text-center">Costa Lab, Icahn School of Medicine</p><a class="btn btn-outline-primary btn-lg text-right" role="button" href="costa-lab.html">Learn More</a></div>
